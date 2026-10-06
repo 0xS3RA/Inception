@@ -90,7 +90,7 @@ Only `make fclean` deletes them.
   account from secrets, locked in `/var/www/html` (wordpress volume).
 - static: `debian:bookworm` + nginx serving handmade HTML/CSS
   on port 8080. No script, nginx runs directly.
-- adminer: `debian:bookworm` + php-cli, single adminer 4.8.4 file
+- adminer: `debian:bookworm` + php-cli, single adminer 5.3.0 file
   served by `php -S` on port 8080 (published as 8081).
 - mailpit: `debian:bookworm` + mailpit 1.31.2 single binary.
   Fake SMTP on 1025, web UI on 8025. No config file needed.
